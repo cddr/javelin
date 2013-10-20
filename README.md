@@ -178,6 +178,15 @@ API functions and macros:
 ;; Disconnects c from the propagation graph so it can be GC'd.
 ```
 
+## Testing
+
+To run the unit tests:-
+
+```bash
+lein cljsbuild once
+test/run.sh
+```
+
 ## License
 
     Copyright (c) Alan Dipert and Micha Niskin. All rights
